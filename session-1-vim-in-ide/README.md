@@ -4,12 +4,8 @@
 
  - use VIM extension in VS Code to navigate and modify code
    - choose between (and switch between) NORMAL mode and INSERT mode
-   - navigate by line, word, search, and more
-   - search and replace with regex across the whole file or within a block of
-     code
-   - perform code transformations like converting a list of `key=value`
-     parameters into JSON or generating a series of method calls from a list of
-     properties
+   - translate high level navigation (like "go to line 35½" into VIM command) to
+     quickly drive to the place you're navigated
 
 ## Intro
 
@@ -41,7 +37,8 @@ we're going to learn VIM navigation and text manipulation that speeds up common
 coding tasks. Everything we do we will do inside VS Code (or your preferred IDE,
 as long as it has a VIM emulator extension).
 
-## Instruction: Normal vs Insert Mode
+## Part 1: go home to INSERT mode
+### Instruction: Normal vs Insert Mode
 
 When I go exploring (hiking or driving), I first make a plan for how I will get
 back home, and then I go wantering. Before we install a VS Code extension that
@@ -60,7 +57,7 @@ of the screen.
    learning about. From `INSERT` mode, we enter `NORMAL` mode by pressing
    `Escape`.
 
-### Exercise: go home to INSERT mode
+### Exercise: several ways to go home to INSERT mode
 
 In pairs, share screen or connect to a workstation. Figure out what each of
 these commands does (each of them puts you into `INSERT` mode with your cursor
@@ -75,4 +72,37 @@ Behavior:
   - start writing on a new line after the cursor
   - start writing on a new line 
 
+## Part 2: moving around the code in NORMAL mode
+### Instruction: ways to get around
+
+When we're coding collaboratively, the navigator often directs the driver to
+certain places in the code. Let's look at how a driver with a VIM emulator can
+quickly respond to these navigations.
+
+Note that `<cr>` is short for the enter key ("carriage return" 📇)
+
+| VIM             | Navigation                        |
+|-----------------|-----------------------------------|
+| `G`             | go to the bottom of the file      |
+| `gg`            | go to the top of the file         |
+| `:35<cr>o`      | on line 35½                       |
+| `:12<cr>O`      | just before line 12               |
+| `\`\``          | go back to where we were before   |
+| `:5<cr>A`       | at the end of line 5              |
+| `:6<cr>I`       | at the start of line 6            |
+| `/blue<cr>`     | go to the next `blue`             |
+| `gg/fish =<cr>` | go to where we initialize `fish`  |
+| `gg/class <cr>` | go to the start of the class      |
+| `e`             | after this word                   |
+| `b`             | before this word                  |
+| `f)i`           | just inside the close parenthesis |
+
+### Exercise: navigate some code
+
+With a pair, open the following code and take turns navigating each other. The
+navigator gives the high level instruction like "go to the bottom of the file",
+and the driver does what the navigator directs. Make sure each person gets a
+chance to execute each command. When you are finished, if we still have time,
+try coming up with new navigations and corresponding VIM commands by recombining
+the elements of the ones we've seen here.
 
