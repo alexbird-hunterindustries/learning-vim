@@ -43,30 +43,36 @@ as long as it has a VIM emulator extension).
 
 ## Instruction: Normal vs Insert Mode
 
-We need to tell VIM whether it should treat our keyboard input as text input or
-navigation input. We call these two scenarios "modes", and VIM provides various
-commands for switching between modes. The name of the current mode is shown at
-the bottom of the screen.
+When I go exploring (hiking or driving), I first make a plan for how I will get
+back home, and then I go wantering. Before we install a VS Code extension that
+interferes with all our keyboard input, let's talk about how to get back from
+VIM mode to the way we're used to entering text into our IDE.
 
-- in `NORMAL` mode, VIM interprets our inputs as **commands**
-- in `INSERT` mode, VIM interprets our inputs as **text input** (normal keyboard
-  behaviour)
-- from `INSERT` mode, we can enter `NORMAL` mode with the `Escape` key
-- from `NORMAL` mode, we can enter `INSERT` mode with the `i` key (also with
-  others, but we'll cover those later)
+VIM has multiple modes of operating with names and keyboard commands for
+switching between them. The name of the current mode is shown at the bottom left
+of the screen.
 
-### Exercise: switch between NORMAL and INSERT mode
+ - `INSERT` mode is the one that is pretty much the same as using our IDE
+   without a VIM extension. When we talk about "going home from our adventure",
+   that means getting back into `INSERT` mode where the inputs behave as we
+   expect.
+ - `NORMAL` mode is the default mode for VIM, and that's the mode we'll be
+   learning about. From `INSERT` mode, we enter `NORMAL` mode by pressing
+   `Escape`.
+
+### Exercise: go home to INSERT mode
 
 In pairs, share screen or connect to a workstation. Figure out what each of
-these commands does.
+these commands does (each of them puts you into `INSERT` mode with your cursor
+in a different place).
 
-Commands: i, I, a, A, o, O
+Commands: i, I, a, A, o, O  
 Behavior:
-  - write behind the cursor
-  - write at the start of the current line
-  - write after the cursor
-  - write at the end of the current line
-  - write on a new line after the cursor
-  - write on a new line 
+  - start writing behind the cursor
+  - start writing at the start of the current line
+  - start writing after the cursor
+  - start writing at the end of the current line
+  - start writing on a new line after the cursor
+  - start writing on a new line 
 
 
