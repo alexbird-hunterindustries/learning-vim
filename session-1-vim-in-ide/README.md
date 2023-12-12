@@ -106,3 +106,41 @@ chance to execute each command. When you are finished, if we still have time,
 try coming up with new navigations and corresponding VIM commands by recombining
 the elements of the ones we've seen here.
 
+## Part 3: beyond the arrow keys
+### Instruction: 20k and other commands
+
+We move around (up, right, down, left) often, and when we move our hands down to
+the arrow keys on our keyboard, they're far from our home row. They're closer
+than if we went all the way to our mouse, but we can do better.
+
+VIM provides `h`, `j`, `k`, and `l` for moving left, down, up, and right without
+leaving our home row.
+
+We also often have to move quite a ways -- not just one row or column over, but
+many. We already learned some search based methods to jump around: `/word<cr>`
+to jump to the next occurance of `word`, and `fx` to jump to the next occurance
+of character `x` on this line. Also `e` and `b` to go to the **e**nd and
+**b**eginning of a word. However, sometimes there is no obvious target like a
+word or a character, and we have to go up a few lines or over a few columns.
+
+For that, we prepend a number to the `h`, `j`, `k`, and `l` commands to repeat
+them (e.g. `22k` to go up 22 lines).
+
+### Exercise: VIM tag
+
+In pairs, take turns being "it". The person who is "it" is not at the keyboard.
+They describe some place in this code file, and their pair needs to get there as
+quickly as possible without using the mouse. When they get to the place, they
+`INSERT` "TAG" into the code, and then the person who is "it" tells them a new
+place. After a little bit, rotate who is "it".
+
+## Outro
+
+Place a card (or multiple) on the board under one (or more) of these headings.
+
+- I'm keen to start using...
+- I don't want to forget...
+- I want to learn more about...
+
+Also, use one of the emoji reactions to respond to the statement "I could start
+using VIM in VS Code today if I wanted to". 🙌🏻🤷😬
