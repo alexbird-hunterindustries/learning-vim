@@ -2,8 +2,9 @@
 
 ## Learning Goals
 
- - use VIM extension in VS Code to navigate and modify code
-   - choose between (and switch between) NORMAL mode and INSERT mode
+ - use the VIM extension in VS Code to move around code faster than we could
+   with a mouse
+   - toggle between VIM mode (VIM NORMAL) and regular IDE mode (VIM INSERT)
    - translate high level navigation (like "go to line 35½" into VIM command) to
      quickly drive to the place you're navigated
 
