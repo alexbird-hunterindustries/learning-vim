@@ -13,7 +13,7 @@ Place a card (or multiple) on the board under one (or more) of these headings:
 
 1. In VIM, I already know how to...
 2. I'm interested in exploring VIM because...
-3. I find VIM intimidating because...
+3. I find VIM confusing or intimidating because...
 
 Also, make sure you have access to a workstation with VS Code installed and the
 VIM extension installed. You could also install these on your laptop.
@@ -81,21 +81,21 @@ quickly respond to these navigations.
 
 Note that `<cr>` is short for the enter key ("carriage return" 📇)
 
-| VIM             | Navigation                        |
-|-----------------|-----------------------------------|
-| `G`             | go to the bottom of the file      |
-| `gg`            | go to the top of the file         |
-| `:35<cr>o`      | on line 35½                       |
-| `:12<cr>O`      | just before line 12               |
-| `\`\``          | go back to where we were before   |
-| `:5<cr>A`       | at the end of line 5              |
-| `:6<cr>I`       | at the start of line 6            |
-| `/blue<cr>`     | go to the next `blue`             |
-| `gg/fish =<cr>` | go to where we initialize `fish`  |
-| `gg/class <cr>` | go to the start of the class      |
-| `e`             | after this word                   |
-| `b`             | before this word                  |
-| `f)i`           | just inside the close parenthesis |
+| VIM               | Navigation                        |
+|-------------------|-----------------------------------|
+| `G`               | go to the bottom of the file      |
+| `gg`              | go to the top of the file         |
+| `:35<cr>o`        | on line 35½                       |
+| `:12<cr>O`        | just before line 12               |
+| <code>\`\`</code> | go back to where we were before   |
+| `:5<cr>A`         | at the end of line 5              |
+| `:6<cr>I`         | at the start of line 6            |
+| `/blue<cr>`       | go to the next `blue`             |
+| `gg/fish =<cr>`   | go to where we initialize `fish`  |
+| `gg/class <cr>`   | go to the start of the class      |
+| `e`               | after this word                   |
+| `b`               | before this word                  |
+| `f)i`             | just inside the close parenthesis |
 
 ### Exercise: navigate some code
 
@@ -131,7 +131,7 @@ them (e.g. `22k` to go up 22 lines).
 In pairs, take turns being "it". The person who is "it" is not at the keyboard.
 They describe some place in this code file, and their pair needs to get there as
 quickly as possible without using the mouse. When they get to the place, they
-`INSERT` "TAG" into the code, and then the person who is "it" tells them a new
+insert "`TAG`" into the code, and then the person who is "it" tells them a new
 place. After a little bit, rotate who is "it".
 
 ## Outro
