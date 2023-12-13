@@ -34,6 +34,7 @@ manipulate text than you could with a mouse and keyboard.
 Most modern IDEs like VS Code have VIM emulators which let us use both VIM
 commands and the mouse as we see fit. This hour we're going to learn how to move
 around our code with VIM. Everything we do we will do inside VS Code (or your
+
 preferred IDE, as long as it has a VIM emulator extension).
 
 ## Part 1: go home to INSERT mode
