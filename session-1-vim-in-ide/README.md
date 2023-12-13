@@ -84,21 +84,23 @@ quickly respond to these navigations.
 
 Note that `<cr>` is short for the enter key ("carriage return" 📇)
 
-| VIM               | Navigation                        |
-|-------------------|-----------------------------------|
-| `G`               | go to the bottom of the file      |
-| `gg`              | go to the top of the file         |
-| `:35<cr>o`        | on line 35½                       |
-| `:12<cr>O`        | just before line 12               |
-| <code>\`\`</code> | go back to where we were before   |
-| `:5<cr>A`         | at the end of line 5              |
-| `:6<cr>I`         | at the start of line 6            |
-| `/blue<cr>`       | go to the next `blue`             |
-| `gg/fish =<cr>`   | go to where we initialize `fish`  |
-| `gg/class <cr>`   | go to the start of the class      |
-| `e`               | after this word                   |
-| `b`               | before this word                  |
-| `f)i`             | just inside the close parenthesis |
+| VIM               | Navigation                         |
+|-------------------|------------------------------------|
+| `G`               | go to the bottom of the file       |
+| `gg`              | go to the top of the file          |
+| `:33<cr>o`        | on line 33½                        |
+| `:12<cr>O`        | just before line 12                |
+| <code>\`\`</code> | go back to where we were before    |
+| `:22<cr>A`        | at the end of line 22              |
+| `:23<cr>I`        | at the start of line 23            |
+| `/blue<cr>`       | go to the next `blue` (see note A) |
+| `gg/fish =<cr>`   | go to where we initialize `fish`   |
+| `gg/class <cr>`   | go to the start of the class       |
+| `e`               | after this word                    |
+| `b`               | before this word                   |
+| `/floor<cr>f)i`   | just inside the close parenthesis  |
+
+Note A: after searching with `/`, you can jump to the following match with `n`
 
 ### Exercise: navigate some code
 
