@@ -1,41 +1,41 @@
-# Session 1: VIM in your IDE
+# Session 1: Vim in your IDE
 
 ## Learning Goals
 
- - use the VIM extension in VS Code to move around code faster than we could
+ - use the Vim extension in VS Code to move around code faster than we could
    with a mouse
-   - toggle between VIM mode (VIM NORMAL) and regular IDE mode (VIM INSERT)
-   - translate high level navigation (like "go to line 35½" into VIM command) to
+   - toggle between Vim mode (Vim NORMAL) and regular IDE mode (Vim INSERT)
+   - translate high level navigation (like "go to line 35½" into Vim command) to
      quickly drive to the place you're navigated
 
 ## Intro
 
 Place a card (or multiple) on the board under one (or more) of these headings:
 
-1. In VIM, I already know how to...
-2. I'm interested in exploring VIM because...
-3. I find VIM confusing or intimidating because...
+1. In Vim, I already know how to...
+2. I'm interested in exploring Vim because...
+3. I find Vim confusing or intimidating because...
 
 Also, make sure you have access to a workstation with VS Code installed and the
-VIM extension installed. You could also install these on your laptop.
+Vim extension installed. You could also install these on your laptop.
 
-## Background: VIM vs Mouse
+## Background: Vim vs Mouse
 
 Our mouse is the essential tool for manipulating things on our computer, and our
 keyboard lets us input text. One advantage of the mouse is that we it has a low
 learning curve: the screen shows us what we can do, and the mouse lets us do
 those things.
 
-VIM provides a secondary tool for manipulating things on our computer. It's
+Vim provides a secondary tool for manipulating things on our computer. It's
 faster and more powerful than the mouse, and unlike an LLM its inputs are terse
 and latency free. If you'd like to learn the commands, you can more effectively
 manipulate text than you could with a mouse and keyboard.
 
-Most modern IDEs like VS Code have VIM emulators which let us use both VIM
+Most modern IDEs like VS Code have Vim emulators which let us use both Vim
 commands and the mouse as we see fit. This hour we're going to learn how to move
-around our code with VIM. Everything we do we will do inside VS Code (or your
+around our code with Vim. Everything we do we will do inside VS Code (or your
 
-preferred IDE, as long as it has a VIM emulator extension).
+preferred IDE, as long as it has a Vim emulator extension).
 
 ## Part 1: go home to INSERT mode
 ### Instruction: Normal vs Insert Mode
@@ -43,17 +43,17 @@ preferred IDE, as long as it has a VIM emulator extension).
 When I go exploring (hiking or driving), I first make a plan for how I will get
 back home, and then I go wantering. Before we install a VS Code extension that
 interferes with all our keyboard input, let's talk about how to get back from
-VIM mode to the way we're used to entering text into our IDE.
+Vim mode to the way we're used to entering text into our IDE.
 
-VIM has multiple modes of operating with names and keyboard commands for
+Vim has multiple modes of operating with names and keyboard commands for
 switching between them. The name of the current mode is shown at the bottom left
 of the screen.
 
  - `INSERT` mode is the one that is pretty much the same as using our IDE
-   without a VIM extension. When we talk about "going home from our adventure",
+   without a Vim extension. When we talk about "going home from our adventure",
    that means getting back into `INSERT` mode where the inputs behave as we
    expect.
- - `NORMAL` mode is the default mode for VIM, and that's the mode we'll be
+ - `NORMAL` mode is the default mode for Vim, and that's the mode we'll be
    learning about. From `INSERT` mode, we enter `NORMAL` mode by pressing
    `Escape`.
 
@@ -78,12 +78,12 @@ Behavior:
 ### Instruction: ways to get around
 
 When we're coding collaboratively, the navigator often directs the driver to
-certain places in the code. Let's look at how a driver with a VIM emulator can
+certain places in the code. Let's look at how a driver with a Vim emulator can
 quickly respond to these navigations.
 
 Note that `<cr>` is short for the enter key ("carriage return" 📇)
 
-| VIM               | Navigation                                                            |
+| Vim               | Navigation                                                            |
 |-------------------|-----------------------------------------------------------------------|
 | `G`               | go to the bottom of the file                                          |
 | `gg`              | go to the top of the file                                             |
@@ -105,7 +105,7 @@ With a pair, open the following code and take turns navigating each other. The
 navigator gives the high level instruction like "go to the bottom of the file",
 and the driver does what the navigator directs. Make sure each person gets a
 chance to execute each command. When you are finished, if we still have time,
-try coming up with new navigations and corresponding VIM commands by recombining
+try coming up with new navigations and corresponding Vim commands by recombining
 the elements of the ones we've seen here.
 
 ## Part 3: beyond the arrow keys
@@ -115,7 +115,7 @@ We move around (up, right, down, left) often, and when we move our hands down to
 the arrow keys on our keyboard, they're far from our home row. They're closer
 than if we went all the way to our mouse, but we can do better.
 
-VIM provides `h`, `j`, `k`, and `l` for moving left, down, up, and right without
+Vim provides `h`, `j`, `k`, and `l` for moving left, down, up, and right without
 leaving our home row.
 
 We also often have to move quite a ways -- not just one row or column over, but
@@ -128,7 +128,7 @@ word or a character, and we have to go up a few lines or over a few columns.
 For that, we prepend a number to the `h`, `j`, `k`, and `l` commands to repeat
 them (e.g. `22k` to go up 22 lines).
 
-### Exercise: VIM tag
+### Exercise: Vim tag
 
 In pairs, take turns being "it". The person who is "it" is not at the keyboard.
 They describe some place in this code file, and their pair needs to get there as
@@ -145,4 +145,4 @@ Place a card (or multiple) on the board under one (or more) of these headings.
 - I want to learn more about...
 
 Also, use one of the emoji reactions to respond to the statement "I could start
-using VIM in VS Code today if I wanted to". 🙌🏻🤷😬
+using Vim in VS Code today if I wanted to". 🙌🏻🤷😬
