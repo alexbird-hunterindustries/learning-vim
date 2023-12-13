@@ -32,11 +32,9 @@ and latency free. If you'd like to learn the commands, you can more effectively
 manipulate text than you could with a mouse and keyboard.
 
 Most modern IDEs like VS Code have VIM emulators which let us use both VIM
-commands and the mouse as we see fit. This hour we're going to learn VIM
-navigation and text manimulation that speeds up common coding tasks.This hour
-we're going to learn VIM navigation and text manipulation that speeds up common
-coding tasks. Everything we do we will do inside VS Code (or your preferred IDE,
-as long as it has a VIM emulator extension).
+commands and the mouse as we see fit. This hour we're going to learn how to move
+around our code with VIM. Everything we do we will do inside VS Code (or your
+preferred IDE, as long as it has a VIM emulator extension).
 
 ## Part 1: go home to INSERT mode
 ### Instruction: Normal vs Insert Mode
