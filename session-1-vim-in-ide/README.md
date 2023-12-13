@@ -60,6 +60,8 @@ of the screen.
 
 ### Exercise: several ways to go home to INSERT mode
 
+For this and subsequent exercises, download the code from [./dessert.ts](./dessert.ts).
+
 In pairs, share screen or connect to a workstation. Figure out what each of
 these commands does (each of them puts you into `INSERT` mode with your cursor
 in a different place).
